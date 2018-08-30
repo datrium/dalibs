@@ -23,7 +23,12 @@ setup(
     description='Datrium Python Common Libraries',
     author='Kyle Harris <kyle@datrium.com>, Anupam Garg <angarg@gmail.com>',
     packages=['dalibs',],
-    install_requires=[],
+    install_requires=[
+        'ecdsa>=0.13',
+        'paramiko>=1.15.2',
+        'scp>=0.8.0',
+        'subprocess32>=3.2.6',
+    ],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
@@ -33,7 +38,7 @@ setup(
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
-    keywords='lib decorators cached retry'
+    keywords='lib decorators cached retry',
     project_urls={
         'Bug Reports': 'https://github.com/datrium/dalibs/issues',
         'Source': 'https://github.com/datrium/dalibs',

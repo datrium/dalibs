@@ -223,7 +223,7 @@ class ThreadException(threading.Thread):
                             'Traceback (most recent call last):')
                         while exc_tb:
                             print>>self._Thread__stderr, (
-                                '  File '%s', line %s, in %s' %
+                                '  File \'%s\', line %s, in %s' %
                                 (exc_tb.tb_frame.f_code.co_filename,
                                     exc_tb.tb_lineno,
                                     exc_tb.tb_frame.f_code.co_name))
