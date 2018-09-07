@@ -1,12 +1,19 @@
 # DaLibs
 
-A set of useful, general-purpose libraries we use at Datrium. Some of the
-most commonly used libs are the retry module and the cached decorator.
+A set of useful, general-purpose libraries we use at [Datrium](http://www.datrium.com). Some of the
+most commonly used libs are the (1) retry module, (2) the cached decorator, and (3) the ssh module exposing a [subprocess](https://docs.python.org/2/library/subprocess.html)-style interface
+over ssh.
 
+## Install
+```
+pip install --process-dependency-links https://github.com/datrium/dalibs/archive/master.zip#egg=dalibs
+```
+
+---
 ## retry
 A generator that encapsulates retry and timeout logic. Examples:
 
-```python
+```
 >>> for attempt in dalibs.retry.retry(attemps=5, timeout=60, sleeptime=1):
 >>>    do something
 >>>    if some condition:
@@ -35,11 +42,12 @@ Traceback (most recent call last):
 retry.RetryTimeoutException: Timedout after 10 seconds!
 ```
 
+---
 ## ssh
-An ssh module that implements enough of a Popen style interface to allow us to write the same code for different backaned.
+An ssh module that implements enough of a [subprocess](https://docs.python.org/2/library/subprocess.html) style interface to allow us to write the same code for different backends.
 Examples:
 
-```python
+```
 import subprocess
 import ssh
 
