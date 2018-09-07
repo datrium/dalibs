@@ -59,3 +59,16 @@ def backend(self):
 p = someobj.backend.Popen(...)
 p.communicate()
 ```
+
+# Contributors
+The original source for this repository is a private git repository
+at Datrium Inc. Because of that, GitHub commit history does not show
+contributions made by Datrium employees over time. This section is used
+to give credit to those that have contributed to this project internally
+at Datrium Inc.
+
+* Anupam Garg \<<angarg@gmail.com>\>
+* E Lewis \<<elewis@datrium.com>\>
+* Kyle Harris \<<digibee@gmail.com>\>
+* Mark Huang \<<mark.l.huang@gmail.com>\>
+* Nitin Garg \<<nitingarg@gmail.com>\>
