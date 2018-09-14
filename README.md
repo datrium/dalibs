@@ -67,8 +67,8 @@ contributions made by Datrium employees over time. This section is used
 to give credit to those that have contributed to this project internally
 at Datrium Inc.
 
-* Anupam Garg \<<angarg@gmail.com>\>
-* E Lewis \<<elewis@datrium.com>\>
-* Kyle Harris \<<digibee@gmail.com>\>
-* Mark Huang \<<mark.l.huang@gmail.com>\>
-* Nitin Garg \<<nitingarg@gmail.com>\>
+* Anupam Garg, [@angarg](https://github.com/angarg)
+* E Lewis, [@eclewis](https://github.com/eclewis)
+* Kyle Harris, [@khhjr](https://github.com/khhjr)
+* Mark Huang, [@vermaport](https://github.com/vermaport)
+* Nitin Garg, [@ngrg](https://github.com/ngrg)
